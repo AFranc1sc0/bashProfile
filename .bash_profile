@@ -6,7 +6,6 @@ unset HISTFILESIZE
 HISTSIZE=2000
 
 
-
 #Git aware, important af
 export GITAWAREPROMPT=~/.bash/git-aware-prompt
 source "${GITAWAREPROMPT}/main.sh"
@@ -43,3 +42,6 @@ fi
 
 #random 
 alias cyphertracer='hexdump -C /dev/random | grep --color=always "ca fe"'
+
+#logconfig
+alias addLog='echo "" >> ~/changeLog.txt'
